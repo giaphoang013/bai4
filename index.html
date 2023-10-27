@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: white;
+            background-color: aqua;
+            width: fit-content; 
+            height: fit-content;
+            text-align: center;
+        }
+        .bg_auto{
+            background-image: url(anhcanhdep.jpg);
+            /* background-size: 50% auto; */
+            /* background-size: contain; */
+            /* ảnh không bị cắt và nó sẽ đầy một phía tùy theo khung element */
+            /* border: 5px solid #000; */
+
+            background-size: cover;
+            /* /ảnh bị cắt sao cho vừa với khung hình*/
+            /* background-size: 20% auto;  */
+            /* / tự động điều chỉnh chiều cao sao cho vừa với phần trăm chiều rộng, quá 100% tự cắt chiều cao */
+            border: 5px solid #000;
+            background-position: top center;
+            width: 1200px;
+            height: 700px;
+            background-repeat: no-repeat; 
+            /* /không lặp lại ảnh khi thu nhỏ */
+        }
+
+    </style>
+
+    <!-- <style>
+        body{
+            background-color: blue;
+        }
+    </style> -->
+
+    <!-- <style>
+        body{
+            background-image: url(anhcanhdep.jpg);
+            background-size: cover;
+            background-position: top center;
+            background-attachment: scroll;
+        }
+        </style> -->
+</head>
+<body>
+    <!-- <style>
+    .mau_sac
+        {
+            text-align: center;
+            color: red;
+            
+        }
+    </styl>
+    <p class="mau_sac">giap</p> -->
+
+    <!-- <style>
+        #mau_sac
+            {
+                text-align: center;
+                color: red;
+                
+            }
+        </style>
+        <p id="mau_sac">giap</p> -->
+
+     <!-- <h1 style="color:aqua; text-align: center;" >Tiêu đề của giáp</h1> -->
+     <h1>chu de</h1>
+    <p class="bg_auto">Đoạn văn bản</p>
+
+</body>
+</html>
